@@ -12,7 +12,7 @@
   npm installs appscentrumapi | yarn add appscentrumapi
 ```
     
-## Usage/Examples
+## Использование
 
 ```javascript
 const AppsCentrumApi = require('appscentrumapi')
@@ -33,6 +33,16 @@ getStat()
 
 - Получать статистику по заработку за сегодня,
 - Получать статистику по просмотрам рекламы за сегодня. 
+
+
+## Как получить токен?
+
+- Открываем https://appscentrum.com/, авторизируемся,
+- Открываем Dev Tools (F12),
+- Открываем раздел сеть (Network), далее XHR запросы,
+- Обновляем страницу (F5), в разделе XHR появится запрос "getApps",
+- В заголовках этого запроса смотрим Cookie, там и будет наш токен (PHPSESSID)
+    `Cookie: apps_user_lang=ru; PHPSESSID=USERTOKEN`
 
 
 ## Авторы
