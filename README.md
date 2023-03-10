@@ -9,7 +9,7 @@
 Установка с помощью npm | yarn
 
 ```bash
-  npm installs appscentrumapi | yarn add appscentrumapi
+  npm install appscentrumapi | yarn add appscentrumapi
 ```
     
 ## Использование
