@@ -22,8 +22,8 @@ let appscentrum = new AppsCentrumApi(process.env.USERTOKEN, process.env.APPID)
 async function getStat() {
   console.log(await appscentrum.todayMoney())
   console.log(await appscentrum.todayShow())
-  console.log(await appscentrum.daysShow())
-  console.log(await appscentrum.daysMoney())
+  console.log(await appscentrum.daysShow(2))
+  console.log(await appscentrum.daysMoney(2))
 }
 
 getStat()
@@ -35,6 +35,8 @@ getStat()
 
 - Получать статистику по заработку за сегодня,
 - Получать статистику по просмотрам рекламы за сегодня. 
+– Получать статистику по заработку за последние дни. 
+– Получать статистику по просмотрам рекламы за последние дни. 
 
 
 ## Как получить токен?
