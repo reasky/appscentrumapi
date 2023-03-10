@@ -22,6 +22,8 @@ let appscentrum = new AppsCentrumApi(process.env.USERTOKEN, process.env.APPID)
 async function getStat() {
   console.log(await appscentrum.todayMoney())
   console.log(await appscentrum.todayShow())
+  console.log(await appscentrum.daysShow())
+  console.log(await appscentrum.daysMoney())
 }
 
 getStat()
