@@ -51,5 +51,5 @@ getStat()
 
 ## Авторы
 
-- [@ReaskyDev](https://github.com/ReaskyDev)
+- [reasky](https://github.com/reasky)
 
